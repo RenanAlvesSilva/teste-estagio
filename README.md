@@ -43,6 +43,7 @@ Projeto desenvolvido para Teste de Estágio, Objetivo : Buscar informações do 
 
 2. Crie um ambiente virtual:
    ```bash
+   virtualenv venv
    venv\Scripts\activate (versão windowns)
 3. Instale as dependências:
    ```bash
