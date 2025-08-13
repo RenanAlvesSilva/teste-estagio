@@ -45,11 +45,18 @@ Projeto desenvolvido para Teste de Estágio, Objetivo : Buscar informações do 
    ```bash
    virtualenv venv
    venv\Scripts\activate (versão windowns)
-3. Instale as dependências:
+3. Crie seu arquivo .env para armazenar variáveis de ambiente.
+   ```bash
+   SUPABASE_URL=your_supabase_url
+   SUPABASE_KEY=your_supabase_key
+   TABLE_NAME=your_table_name
+   Z_API_INSTANCE_ID=your_instance_id
+   Z_API_TOKEN=your_api_token
+4. Instale as dependências:
    ```bash
    pip install -r requirements.txt
-4. Execute o programa:
+5. Execute o programa:
    ```bash
    python main.py
 
-Observação: .venv já está no projeto, não será necessário ser criado.
+
